@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    margin-bottom: 4rem;
+}
+
+.nav-menu-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+}
+
+.menu-item{
+    font-size: 1.3rem;
+    padding:.5rem 1rem;
+    color:#31B8B6;
+}
+
+.login svg{
+    height:1.5rem;
+
+}
+
+/* Main Banner */
+
+.main-banner{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    padding:0 5rem;
+    /* position:relative; */
+}
+
+.main-banner .heading{
+    color: #264653;
+    font-size: 4rem;
+    margin-bottom: .8rem;
+}
+
+.main-banner .details{
+    color:#92C53E;
+    font-size: 2rem;
+    margin-bottom: .8rem;
+}
+
+.main-banner .plan_cta{
+    padding: 10px 35px;
+    font-size: 2rem;
+    border-radius: 50px;
+    background-color: #31B8B6;
+    color:white;
+    border:none;
+}
+
+.left{
+    width:50%;
+}
+
+.right{
+    width:50%;
+}
+
+.right svg{
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+
+#leftside-bg{
+    position: absolute;
+    bottom: 0;
+    height:50%;
+    z-index: -1;
+}
+
+.experince-container{
+    width:40%;
+}
+
+.experince-container{
+    padding:5%;
+}
+
+.experince_pointer .logo svg{
+    height:100px;
+}
+
+.experince_pointer{
+    display:flex;
+}
+
+.experience-text-box{
+    --rem: 16;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #5e5e5e;
+    text-align: center!important;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: #ECE9CE;
+    padding: 7% 5%;
+    border-radius: 25px;
+    box-shadow: 2px 10px 18px #1111114a;
+    margin-left: 5rem;
+
+}
+
+.experience-text-box h2 {
+    font-weight: 800;
+    font-size: 3rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.experience-text-box h4 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 1.1;
+    font-size: 1.5rem !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.experience-text-box p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    padding-top: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Comfortaa', cursive;
+    color: #264653;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+.pxs-rich-text, .module-wrapper {
+    position: relative;
+    display: block;
+}
+
+div#brinjal1-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: -3%;
+    left: -1%;
+    z-index: 0;
+}
+
+div#tomato-float-home-transform {
+    animation: movement-tomato 5s infinite alternate-reverse both;
+    animation-delay: 2s;
+    position: absolute;
+    width: 100%;
+    top: 21%;
+    left: 77%;
+    z-index: -3;
+}
+
+
+.experience-lunchin-section .experience-blob {
+    position: absolute;
+    right: -7%;
+    bottom: 34%;
+    width: 22% !important;
+    max-width: unset !important;
+    z-index: -9;
+    transform: rotate(-15deg);
+    opacity: 0.5;
+}
+
+.experience-blob-left {
+    position: absolute;
+    left: -17%;
+    bottom: 13%;
+    width: 10%;
+    z-index: -9;
+    transform: rotate(90deg);
+    opacity: 0.5;
+}
+
+.brinjal1-float-home{
+    height:20rem;
+}
+
+.lemon-float-home {
+    position: absolute;
+    right: 69%;
+    top: 33%;
+    height:8rem;
+}
+
+div#lemon-float-home-transform {
+    animation: movement-1 7s infinite alternate-reverse both;
+    animation-delay: 0.7s;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 47%;
+}
+
+div#carrot-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 47%;
+    z-index: -9;
+}
+
+.carrot-float-home{
+    height:20rem;
+}
+
+div#vfill-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: 41%;
+    left: 59%;
+    z-index: -9;
+}
+
+div#cabbg-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 65%;
+    z-index: -9;
+}
+
+.cabbg-float-home{
+    height:15rem;
+}
+
+div#vfill1-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: 22%;
+    left: -1%;
+    z-index: -7;
+}
+
+.vfill1-float-home{
+    height:15rem;
+}
+
+.vfill-float-home{
+    height:10rem;
+}
+
+div#tomato-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: 21%;
+    left: 77%;
+    z-index: -3;
+}
+
+.tomato-float-home{
+    height:15rem;
+}
+
+
+div#mango-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: -5%;
+    z-index: -3;
+}
+
+.mango-float-home{
+    height: 20rem;
+}
+
+div#cucu-float-home-transform {
+    position: absolute;
+    width: 100%;
+    top: 49%;
+    left: 38%;
+    z-index: -1;
+}
+
+.cucu-float-home{
+    height:15rem;
+}
+
+
+.container-fluid {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.how-it-works-on.how-it-works-on-scroll {
+    display: block;
+}
+
+#how-it-works h1 {
+    font-weight: 600;
+    margin-bottom: 3rem !important;
+    font-size: 2.5rem;
+}
+
+.how-it-works-icons {
+    flex: 15%;
+    padding: 10px;
+}
+
+
+/* .how-it-works-on svg{
+    height:5rem;
+} */
+
+/* .how-it-works-lines{
+    height:.1rem !important;
+} */
+
+rect#grey-actual-smoke {
+    animation: scale-right-new 3s infinite cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation-delay: 7.3s;
+    transform-origin: 50% 80%;
+    fill: none;
+}
+
+h2.icon-works-text {
+    font-weight: 900;
+    margin-top: 10% !important;
+    font-size: 1.5rem !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Comfortaa', cursive;
+    color: #264653;
+}
+
+.how-it-works-icons h5 {
+    color: #02C4B0;
+    font-weight: 600;
+    font-size: 1rem !important;
+}
+
+.color-change-rect-3 ,.color-change-rect-1,.color-change-rect-2{
+    fill: #fff;
+}
+
+.how-it-works-lines {
+    margin-bottom: 133%;
+}
+
+.column-empty-spacer {
+    flex: 4.1666%;
+    z-index: 999;
+}
+
+div#how-it-works {
+    padding: 10% 0 7% 0;
+    min-height: 80vh;
+}
+
+section#experience-lunchin {
+    min-height: 80vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.proceed-btn{
+    --rem: 16;
+    font-style: normal;
+    line-height: 1.625;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    touch-action: manipulation;
+    text-decoration: none;
+    background: #31b8a9;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px -10px #31b8a9;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    font-size: 2rem;
+    padding: 15px 60px;
+    animation: opacity-in 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation-delay: 4.2s;
+}
+
+.proceed-btn:hover {
+    /* margin-top: 1.2%; */
+    color: white;
+    text-decoration: none;
+    box-shadow: none !important;
+}
+
+@media screen and (min-width: 600px){
+.hidden-in-desktop {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px){
+.hidden-in-mobile {
+    display: none;
+}
+div#hide-in-mobile {
+    display: none;
+}
+}
+
+section{
+    margin-bottom: 10rem;
+}
+

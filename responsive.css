@@ -1,0 +1,172 @@
+@media screen and (max-width: 600px) {
+  .main-banner {
+    flex-direction: column-reverse;
+    height: 60vh;
+    margin-bottom: 10rem;
+    padding: 0 2rem;
+  }
+  .left,
+  .right {
+    height: 50%;
+    width: 100%;
+  }
+
+  .left {
+    text-align: center;
+  }
+  .main-banner .heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .main-banner .details {
+    font-size: 1.5rem;
+  }
+
+  .main-banner .plan_cta {
+    font-size: 1.5rem;
+    padding: 5px 23px;
+  }
+
+  #leftside-bg {
+    height: 20%;
+    bottom: 10%;
+  }
+
+  .navbar-container {
+    justify-content: center;
+  }
+
+  g#main-elements-mobile-transform {
+    transform: translate(-4%, -3%) scale(1.2);
+  }
+
+  /* Experince */
+  .experience-text-box .col-10 {
+    flex: 0 0 50% !important;
+    width: 50% !important;
+    max-width: 50%;
+    text-align: center !important;
+    margin: 8% auto;
+    height: 100% !important;
+  }
+
+  .mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .experience-icons {
+    width: 40% !important;
+    margin-top: 0;
+  }
+
+  .experience-text-box p {
+    display: none;
+  }
+  .experience-text-box h2 {
+    font-size: 1.7rem !important;
+    margin-top: 4% !important;
+}
+.experience-text-box h4 {
+    font-weight: 600 !important;
+    line-height: 1.1;
+    font-size: 1.2rem !important;
+}
+
+  .experience-text-box{
+    margin-left: 1rem;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+div#lemon-float-home-transform {
+    width: 100%;
+    top: 0%;
+    left: 76%;
+    transform: scale(0.6);
+}
+div#carrot-float-home-transform {
+    width: 100%;
+    top: 9%;
+    left: 50%;
+    z-index: 9 !important;
+    transform: scale(.6);
+}
+div#vfill-float-home-transform {
+    top: 45%;
+    left: 0%;
+    transform: scale(0.6);
+}
+
+div#cabbg-float-home-transform {
+    width: 100%;
+    top: 20%;
+    left: -29%;
+    z-index: -9 !important;
+    transform: scale(0.6);
+}
+
+div#brinjal1-float-home-transform {
+    top: 2%;
+    left: -33%;
+    z-index: -1 !important;
+    transform: scale(0.6);
+}
+
+div#tomato-float-home-transform {
+    display: none;
+}
+
+div#mango-float-home-transform {
+    display: none;
+}
+
+div#cucu-float-home-transform {
+    top: 42.5%;
+    left: 35%;
+    z-index: -9 !important;
+    transform: scale(0.6);
+}
+.experience-text-box{
+    margin-bottom: 8rem;
+}
+
+/* How it works */
+.how-it-works-icons {
+    flex: none;
+    width: 50%;
+}
+
+svg.how-it-works-calendar {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+h2.icon-works-text {
+    font-size: 1.5rem !important;
+}
+
+.how-it-works-icons h5 {
+    font-size: 1rem !important;
+}
+
+.how-it-works-icons.how-it-works-bike-column {
+    width: 100%;
+}
+
+svg.how-it-works-bike {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    transform: translate(-12%, 0px);
+}
+
+.how-it-works-bowl{
+    width:70%;
+}
+}
